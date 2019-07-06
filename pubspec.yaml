@@ -1,0 +1,42 @@
+name: LisenceApp
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  datetime_picker_formfield: ^0.1.1
+  cupertino_icons: ^0.1.2
+  http: any
+  date_format: ^1.0.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/loginx.png
+    - assets/images/flutterx.png
+    - assets/images/earth.png
+    - assets/images/pkppk.png
+    - assets/images/avsec.png
+
+  fonts:
+      - family: Nunito
+        fonts:
+          - asset: assets/Nunito.ttf
